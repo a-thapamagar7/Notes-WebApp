@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Spacegrotesk";
+  src: url("./Fonts/SpaceGrotesk-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("./Fonts/Lato-Regular.ttf");
+}
+
+.bgImg {
+  background-image: url("./Images/bg2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.spacegrotesk {
+  font-family: "Spacegrotesk";
+}
+
+.lato {
+  font-family: "Lato-Regular";
+}
+
+.hj{
+  transition: all .14s ease-in-out; 
+}
+
+  
+.hj:hover { 
+  transform: scale(1.1); 
+}
